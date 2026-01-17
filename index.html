@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Our Cause</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* General section styling */
+        section {
+            min-height: 100vh;
+            /* full screen height */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 80px 20px;
+            /* spacing to avoid navbar overlap */
+        }
+
+        /* Home Section */
+        #home {
+            background: url('images/sunrise.jpg') no-repeat center center/cover;
+            color: white;
+        }
+
+        .home-text h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+        }
+
+        .home-text p {
+            font-size: 1.25rem;
+            margin-top: 15px;
+            line-height: 1.6;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .home-text .btn {
+            padding: 12px 30px;
+            font-size: 1.2rem;
+            border-radius: 30px;
+        }
+
+        /* Mission Section */
+        #mission {
+            background: url('images/hands.jpg') no-repeat center center/cover;
+            color: white;
+        }
+
+        .mission-text h2 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .mission-text p {
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto 15px auto;
+            line-height: 1.7;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+        }
+
+        /* Beneficiaries Section */
+        #beneficiaries {
+            background: url('images/silhouette.jpg') no-repeat center center/cover;
+            color: white;
+        }
+
+        #beneficiaries h2 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        #beneficiaries p {
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+        }
+
+        /* Donate Section */
+        #donate {
+            background: #2E86C1;
+            /* solid color for clarity */
+            color: white;
+        }
+
+        #donate h2 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        #donate p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        #donate .btn {
+            padding: 12px 30px;
+            font-size: 1.2rem;
+            border-radius: 30px;
+        }
+
+        /* Contact Section */
+        #contact {
+            background: #333;
+            /* neutral dark background */
+            color: white;
+        }
+
+        #contact h2 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        #contact p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        /* Navbar */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#home">Support Our Cause</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#mission">Our Mission</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#beneficiaries">Beneficiaries</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#donate">How to Donate</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Sections -->
+    <section id="home">
+        <div class="container text-center home-text">
+            <h1 class="display-4">Stand With Tito</h1>
+            <p class="lead">
+                Tito, a cherished friend and family member, is fighting for recovery after a serious motorcycle
+                accident.
+            </p>
+            <p>
+                Your support can ease the burden of his hospital bills and give him the strength to heal. Together, we
+                can make a life-changing difference.
+            </p>
+            <a href="#donate" class="btn btn-primary btn-lg mt-3">Donate Now</a>
+        </div>
+    </section>
+
+
+    <section id="mission">
+        <div class="container mission-text">
+            <h2>Our Mission</h2>
+            <p>
+                Life can change in an instant. Tito, a beloved member of our community, was recently involved in a
+                serious motorcycle accident. He is now facing extensive medical treatment and long hospital stays.
+            </p>
+            <p>
+                Our mission is simple: to come together and help Tito recover by easing the burden of his hospital
+                bills. Every donation goes directly to his medical expenses, ensuring he receives the care he needs
+                without delay.
+            </p>
+            <p>
+                With your support, we can give Tito hope, strength, and the chance to heal. No contribution is too small
+                — each act of kindness brings us closer to his recovery.
+            </p>
+        </div>
+    </section>
+
+
+    <section id="beneficiaries">
+        <div class="container">
+            <h2>Beneficiaries</h2>
+            <p>Local elementary schools serving low-income families in Pampanga.</p>
+        </div>
+    </section>
+
+    <section id="donate">
+        <div class="container">
+            <h2>How to Donate</h2>
+            <p>Scan the QR codes or click below.</p>
+            <button class="btn btn-light btn-lg">Donate Now</button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: support@example.com</p>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
